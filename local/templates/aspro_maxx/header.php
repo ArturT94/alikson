@@ -1,5 +1,4 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();?>
-hello
 <?if($_GET["debug"] == "y")
 	error_reporting(E_ERROR | E_PARSE);
 IncludeTemplateLangFile(__FILE__);
