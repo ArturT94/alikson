@@ -1,0 +1,54 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+/* Examples (uncomment to use):*/
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+.basket-checkout-block-btns-wrap .fastorder {
+    order: 1
+}
+.basket-checkout-block-btns-wrap .basket-checkout-block-btn {
+    order: 2
+}
+.basket-checkout-block-btns-wrap .basket-checkout-block-share {
+    order: 3
+}
+.partners-page .detail_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.partners-page .detail_wrapper .detail_content_wrapper {
+    order: 10;
+}
+.item-views.brands .item img {
+    filter: none;
+    -webkit-filter: none;
+    opacity: 1;
+}
+.fancybox-show-thumbs .fancybox-inner {
+    left: 92px;
+    right: 0;
+}
+.fancybox-thumbs {
+   left: 0;
+   right: auto;
+   width: 92px;
+}
+.fancybox-thumbs__list a {
+    max-height: calc(100% - 8px);
+    max-width: calc(100% - 4px);
+    width: 100px;
+    background-size: contain;
+    background-color: white;
+}
+.fancybox-thumbs {
+    background: #fff;
+}
+.fancybox-thumbs__list a::before {
+    border: 2px solid #ffcc29;
+}
+pp {
+    font-family: 'Montserrat', sans-serif;
+}
